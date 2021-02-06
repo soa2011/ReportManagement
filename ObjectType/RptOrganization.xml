@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="CampaignSpec">
-    <sch:name>CampaignSpec</sch:name>
+<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="RptOrganization">
+    <sch:name>RptOrganization</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archeType>NORMAL</sch:archeType>
     <sch:parentTypeName>ReportManagement</sch:parentTypeName>

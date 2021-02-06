@@ -3,7 +3,7 @@
     <sch:name>TargetTag</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archeType>NORMAL</sch:archeType>
-    <sch:parentTypeName>CampaignSpec</sch:parentTypeName>
+    <sch:parentTypeName>RptOrganization</sch:parentTypeName>
     <sch:accessMode>TableDirect</sch:accessMode>
     <sch:primaryField></sch:primaryField>
     <sch:primaryKey></sch:primaryKey>

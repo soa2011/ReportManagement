@@ -420,17 +420,17 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>CampaignSpec</sch:tableName>
+            <sch:tableName>RptOrganization</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>4400</sch:seqIndex>
-            <sch:format>CampaignSpecs(%s)</sch:format>
+            <sch:format>RptOrganizations(%s)</sch:format>
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>CampaignSpec</sch:tableName>
+            <sch:tableName>RptOrganization</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>4400</sch:seqIndex>
             <sch:format>%s</sch:format>
