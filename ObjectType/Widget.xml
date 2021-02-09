@@ -89,9 +89,9 @@
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>Config</sch:name>
-            <sch:dataType>Char</sch:dataType>
+            <sch:dataType>Clob</sch:dataType>
             <sch:enumName></sch:enumName>
-            <sch:length>4000</sch:length>
+            <sch:length>100000</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
@@ -107,7 +107,7 @@
             <sch:name>Model</sch:name>
             <sch:dataType>Char</sch:dataType>
             <sch:enumName></sch:enumName>
-            <sch:length>512</sch:length>
+            <sch:length>4000</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>

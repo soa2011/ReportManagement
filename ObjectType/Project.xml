@@ -125,11 +125,11 @@
             <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>TransAmount</sch:name>
-            <sch:dataType>Decimal</sch:dataType>
+            <sch:name>UserId</sch:name>
+            <sch:dataType>Long</sch:dataType>
             <sch:enumName></sch:enumName>
-            <sch:length>16</sch:length>
-            <sch:scale>2</sch:scale>
+            <sch:length></sch:length>
+            <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
             <sch:encrypted>false</sch:encrypted>
