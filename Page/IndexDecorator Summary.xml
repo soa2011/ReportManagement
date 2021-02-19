@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:PageDefinition xmlns:sch="http://Baf.com/schemas" name="SubjectAreaRole Detail">
-    <sch:name>SubjectAreaRole Detail</sch:name>
+<sch:PageDefinition xmlns:sch="http://Baf.com/schemas" name="IndexDecorator Summary">
+    <sch:name>IndexDecorator Summary</sch:name>
     <sch:pageNumber></sch:pageNumber>
-    <sch:pageType>Detail</sch:pageType>
+    <sch:pageType>Summary</sch:pageType>
     <sch:pageCondition></sch:pageCondition>
     <sch:title></sch:title>
-    <sch:seqNumber>1000</sch:seqNumber>
-    <sch:objectTypeName>SubjectAreaRole</sch:objectTypeName>
+    <sch:seqNumber>900</sch:seqNumber>
+    <sch:objectTypeName>IndexDecorator</sch:objectTypeName>
     <sch:display>true</sch:display>
     <sch:labelColWidth>0</sch:labelColWidth>
     <sch:valueColWidth>0</sch:valueColWidth>
@@ -25,16 +25,16 @@
     <sch:changeFields></sch:changeFields>
     <sch:clientSideController></sch:clientSideController>
     <sch:serverSideController></sch:serverSideController>
-    <sch:objectType isRef="true">SubjectAreaRole</sch:objectType>
+    <sch:objectType isRef="true">IndexDecorator</sch:objectType>
     <sch:pageAreas/>
     <sch:fields>
         <sch:BmfPageField>
             <sch:name>Name</sch:name>
-            <sch:seqNumber>200</sch:seqNumber>
+            <sch:seqNumber>100</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Edit</sch:fieldType>
+            <sch:fieldType>Text</sch:fieldType>
             <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Name</sch:label>
@@ -51,10 +51,10 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
+            <sch:colSpan>0</sch:colSpan>
+            <sch:sortable>true</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
-            <sch:filterType></sch:filterType>
+            <sch:filterType>Equal</sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
@@ -87,11 +87,11 @@
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Status</sch:name>
-            <sch:seqNumber>300</sch:seqNumber>
+            <sch:seqNumber>200</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Edit</sch:fieldType>
+            <sch:fieldType>Text</sch:fieldType>
             <sch:widgetType></sch:widgetType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Status</sch:label>
@@ -108,10 +108,10 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
+            <sch:colSpan>0</sch:colSpan>
+            <sch:sortable>true</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
-            <sch:filterType></sch:filterType>
+            <sch:filterType>Equal</sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
@@ -148,9 +148,9 @@
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>ObjectSelector</sch:fieldType>
+            <sch:fieldType>Text</sch:fieldType>
             <sch:widgetType></sch:widgetType>
-            <sch:refTargetType>Client</sch:refTargetType>
+            <sch:refTargetType></sch:refTargetType>
             <sch:label>ClientId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
@@ -165,10 +165,10 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
+            <sch:colSpan>0</sch:colSpan>
+            <sch:sortable>true</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
-            <sch:filterType></sch:filterType>
+            <sch:filterType>Equal</sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
